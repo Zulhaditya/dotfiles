@@ -39,8 +39,8 @@ source $ZSH/oh-my-zsh.sh
 alias sc="source $HOME/.zshrc"
 
 # Alias for zsh
-alias zshconf="nvim ~/.zshrc"
-alias zshdoc="batcat ~/.zshrc"
+alias zshconf="nvim ~/.dotfiles/zsh/.zshrc"
+alias zshdoc="batcat ~/.dotfiles/zsh/.zshrc"
 
 # Alias for ls
 alias ls='exa'
@@ -57,16 +57,16 @@ alias update='sudo nala update && sudo nala upgrade'
 alias cat='batcat'
 
 # Alias for navigation to nvim setting
-alias nvimconf="cd ~/.config/nvim/"
+alias nvimconf="cd ~/.dotfiles/nvim/.config/nvim/"
 
 # Alias for navigation to i3 setting
-alias i3conf="nvim ~/.config/i3/config"
+alias i3conf="nvim ~/.dotfiles/i3/.config/i3/config"
 
 # Alias for navigating to wezterm setting
-alias wezconf="nvim ~/.config/wezterm/wezterm.lua"
+alias wezconf="nvim ~/.dotfiles/wezconf/.config/wezterm/wezterm.lua"
 
 # Alias for navigating to tmux setting
-alias tmuxconf="nvim ~/.config/tmux/tmux.conf"
+alias tmuxconf="nvim ~/.dotfiles/tmux/.config/tmux/tmux.conf"
 
 # Alias for lazygit
 alias lg='lazygit'
