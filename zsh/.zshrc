@@ -63,7 +63,7 @@ alias nvimconf="cd ~/.dotfiles/nvim/.config/nvim/"
 alias i3conf="nvim ~/.dotfiles/i3/.config/i3/config"
 
 # Alias for navigating to wezterm setting
-alias wezconf="nvim ~/.dotfiles/wezconf/.config/wezterm/wezterm.lua"
+alias wezconf="nvim ~/.dotfiles/wezterm/.config/wezterm/wezterm.lua"
 
 # Alias for navigating to tmux setting
 alias tmuxconf="nvim ~/.dotfiles/tmux/.config/tmux/tmux.conf"
