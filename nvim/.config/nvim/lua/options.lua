@@ -29,12 +29,7 @@ vim.o.incsearch = true                               -- setting hlsearch
 vim.o.splitbelow = true                              -- setting mode split ke bawah
 vim.o.splitright = true                              -- setting split ke kanan
 vim.o.swapfile = false                               -- setting untuk tidak membuat swapfile
--- ufo fold
-vim.o.foldcolumn = '1'                               -- '0' is not bad
-vim.o.foldlevel = 99                                 -- Using ufo provider need a large value, feel free to decrease the value
-vim.o.foldlevelstart = 99
-vim.o.foldenable = true
-vim.g.vimwiki_list = { -- setting vimwiki
+vim.g.vimwiki_list = {                               -- setting vimwiki
   {
     path = '~/Notes/',
     syntax = 'markdown',

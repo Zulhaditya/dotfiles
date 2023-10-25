@@ -45,6 +45,9 @@ keymap("n", "N", "Nzzzv", opts)
 -- off Q
 keymap("n", "Q", "<nop>", opts)
 
+-- REST console
+keymap("n", "<leader>tt", ":call VrcQuery()<CR>", opts)
+
 ---------------- INSERT ----------------------
 -- jj untuk keluar dari insert mode
 keymap("i", "jj", "<ESC>", opts)

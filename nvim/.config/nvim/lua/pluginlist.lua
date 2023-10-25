@@ -24,7 +24,7 @@ return {
     config = function()
       require("lualine").setup({
         icons_enabled = true,
-        theme = "catppuccin",
+        theme = "vscode",
       })
     end,
   },
@@ -133,6 +133,10 @@ return {
     end
   },
 
-  -- install indent blank line
-  { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
+  -- install plugin untuk test api
+
+  {
+    "diepm/vim-rest-console"
+  },
+
 }

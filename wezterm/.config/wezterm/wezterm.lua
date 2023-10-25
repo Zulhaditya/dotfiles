@@ -8,7 +8,7 @@ config.enable_tab_bar = false
 config.enable_wayland = false
 config.window_background_image = "/home/ackxle/Pictures/Wallpaper/wife.jpg"
 config.window_background_image_hsb = {
-  brightness = 0.2,
+  brightness = 0.25,
   hue = 1.0,
   saturation = 1.0,
 }
