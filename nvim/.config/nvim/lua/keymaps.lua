@@ -21,7 +21,7 @@ keymap("n", "<leader>q", ":Bdelete<cr>", opts)
 keymap("n", "<leader>h", ":Alpha<cr>", opts)
 
 -- buka file explorer
-keymap("n", "<leader>e", ":Neotree toggle<cr>", opts)
+keymap("n", "<leader>e", ":Ex<cr>", opts)
 
 -- buka git status neotree
 keymap("n", "<leader>gs", ":Neotree float git_status<cr>", opts)

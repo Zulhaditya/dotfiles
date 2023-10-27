@@ -4,28 +4,11 @@ return {
     "catppuccin/nvim", name = "catppuccin", priority = 1000
   },
 
-  -- install tema vscode
-  { "Mofiqul/vscode.nvim" },
-
   -- install plugin comment
   {
     "numToStr/Comment.nvim",
     config = function()
       require("Comment").setup()
-    end,
-  },
-
-  -- install plugin icon
-  {
-    "nvim-lualine/lualine.nvim",
-    dependencies = {
-      "nvim-tree/nvim-web-devicons",
-    },
-    config = function()
-      require("lualine").setup({
-        icons_enabled = true,
-        theme = "vscode",
-      })
     end,
   },
 
