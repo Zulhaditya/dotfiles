@@ -1,7 +1,7 @@
 return {
-  -- install tema catppuccin
+  -- install tema oxocarbon
   {
-    "catppuccin/nvim", name = "catppuccin", priority = 1000
+    "nyoom-engineering/oxocarbon.nvim",
   },
 
   -- install plugin comment
@@ -9,6 +9,20 @@ return {
     "numToStr/Comment.nvim",
     config = function()
       require("Comment").setup()
+    end,
+  },
+
+  -- install plugin icon
+  {
+    "nvim-lualine/lualine.nvim",
+    dependencies = {
+      "nvim-tree/nvim-web-devicons",
+    },
+    config = function()
+      require("lualine").setup({
+        icons_enabled = true,
+        theme = "oxocarbon",
+      })
     end,
   },
 
@@ -54,21 +68,8 @@ return {
     build = "make",
   },
 
-  -- install file explorer neotree nvim
-  {
-    "nvim-neo-tree/neo-tree.nvim",
-    branch = "v3.x",
-    dependencies = {
-      "nvim-lua/plenary.nvim",
-      "nvim-tree/nvim-web-devicons",
-      "MunifTanjim/nui.nvim",
-    },
-  },
   -- install plugin untuk opsi tab
   { "moll/vim-bbye" },
-
-  -- install plugin untuk terminal
-  { "akinsho/toggleterm.nvim" },
 
   -- install plugin navigasi ke kata tertentu
   {
